@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.61 s <<< FAILURE! - in TestSuite
+launch(com.qa.TestExcecution.loginTest)  Time elapsed: 0.424 s  <<< FAILURE!
+java.util.MissingResourceException: Can't find bundle for base name com.qa.TestExcecution.config, locale en_US
+	at com.qa.TestExcecution.loginTest.launch(loginTest.java:21)
+
